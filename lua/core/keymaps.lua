@@ -16,8 +16,10 @@ vim.opt.expandtab = true
 
 vim.cmd("set number")
 vim.cmd("set relativenumber")
-vim.cmd("set notermguicolors")
+
+vim.opt.termguicolors = true
 
 vim.keymap.set('n', 'zz', function() vim.cmd("cd %:p:h") end)
 vim.keymap.set('n', '<Esc>', function() vim.cmd("nohlsearch") end, { silent = true })
+vim.keymap.set('n', '<leader>t', function() vim.cmd("Themery") end, { silent = true })
 

@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/Users/dima/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/dima/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/dima/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -174,10 +179,20 @@ _G.packer_plugins = {
     path = "/Users/dima/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["sweetie.nvim"] = {
+    loaded = true,
+    path = "/Users/dima/.local/share/nvim/site/pack/packer/start/sweetie.nvim",
+    url = "https://github.com/NTBBloodbath/sweetie.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/dima/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["themery.nvim"] = {
+    loaded = true,
+    path = "/Users/dima/.local/share/nvim/site/pack/packer/start/themery.nvim",
+    url = "https://github.com/zaldih/themery.nvim"
   }
 }
 

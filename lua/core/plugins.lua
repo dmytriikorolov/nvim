@@ -18,6 +18,12 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use("catppuccin/nvim")
+
+  use 'Mofiqul/dracula.nvim'
+  use 'NTBBloodbath/sweetie.nvim'
+
+  use 'nvim-treesitter/nvim-treesitter'
+  use 'zaldih/themery.nvim'
   use {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.4',
