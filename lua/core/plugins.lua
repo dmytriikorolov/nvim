@@ -23,7 +23,6 @@ return require('packer').startup(function(use)
   use 'Mofiqul/dracula.nvim'
   use 'NTBBloodbath/sweetie.nvim'
 
-  use 'nvim-treesitter/nvim-treesitter'
   use 'zaldih/themery.nvim'
   use {
     'nvim-telescope/telescope.nvim',
@@ -42,6 +41,7 @@ return require('packer').startup(function(use)
   use("hrsh7th/cmp-nvim-lsp-signature-help")
   use("saadparwaiz1/cmp_luasnip")
   use("rafamadriz/friendly-snippets")
+  use { "nvimtools/none-ls.nvim", requires = { "nvim-lua/plenary.nvim" } }
   use("neovim/nvim-lspconfig") -- Easily configure language servers
   use("hrsh7th/cmp-nvim-lsp") -- For autocompletion
   use({
