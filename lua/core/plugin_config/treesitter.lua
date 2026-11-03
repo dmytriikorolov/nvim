@@ -33,7 +33,7 @@ if vim.fn.has("nvim-0.12") == 1 then
 end
 
 require("nvim-treesitter.configs").setup {
-  ensure_installed = { "bash", "c", "cpp", "haskell", "lua", "markdown", "markdown_inline", "prolog", "python", "query", "toml", "vim", "vimdoc" },
+  ensure_installed = { "bash", "c", "cpp", "gitignore", "haskell", "lua", "markdown", "markdown_inline", "prolog", "python", "query", "toml", "vim", "vimdoc" },
   parser_install_dir = parser_install_dir,
 
   sync_install = false,
