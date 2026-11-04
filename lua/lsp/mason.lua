@@ -4,7 +4,6 @@ local mason_servers = {
   "csharp_ls",
   "basedpyright",
   "bashls",
-  "hls",
 }
 
 local manual_servers = {
